@@ -1,3 +1,7 @@
 
 
 This repository has sample code.
+
+1. hw_google_rollout.php is a drush script that programatically updates a mini_panel and a panel.
+
+2. hw_rollout.helper.inc is a helper class that holds helper functions to update or revert a drupal feature, error handling and check the changes into git.
