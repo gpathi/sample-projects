@@ -2,6 +2,20 @@
 
 This repository has sample code.
 
+scripts:
+
 1. hw_google_rollout.php is a drush script that programatically updates a mini_panel and a panel.
 
 2. hw_rollout.helper.inc is a helper class that holds helper functions to update or revert a drupal feature, error handling and check the changes into git.
+
+modules:
+
+1.helloworld module renders a block listing all the articles of type helloworld along with the
+  helloworld article content.
+ 
+2. Content type helloworld is defined in content_type_vocab_hello_world module
+ 
+themes:
+
+ This directory has the css and template file related to the display of articles of type
+  helloworld as described in the helloworld module.

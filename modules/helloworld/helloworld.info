@@ -1,0 +1,3 @@
+name = hello world
+description = Hello World module.
+core = 7.x
