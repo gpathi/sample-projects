@@ -7,6 +7,7 @@ dependencies[] = list
 dependencies[] = options
 dependencies[] = taxonomy
 dependencies[] = text
+
 features[features_api][] = api:1
 features[field][] = node-hello_world_article-body
 features[field][] = node-hello_world_article-field_sections

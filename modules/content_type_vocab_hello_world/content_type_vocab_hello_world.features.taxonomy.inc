@@ -1,4 +1,6 @@
 <?php
+
+
 /**
  * @file
  * content_type_vocab_hello_world.features.taxonomy.inc
