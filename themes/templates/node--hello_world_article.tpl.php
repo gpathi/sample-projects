@@ -1,9 +1,4 @@
-<?php
- 
- drupal_add_css(path_to_theme() . '/css/hello_world_article.css', array ('group' => CSS_THEME));
 
-
-?>
 
 <div id='parent_div_1'>
     <div class='snippet'>Content starts here! </div>
