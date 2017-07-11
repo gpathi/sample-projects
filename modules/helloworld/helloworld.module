@@ -34,6 +34,8 @@ function helloworld_block_info() {
  */
 function helloworld_block_view($delta) {
      $block = array();
+     // no block cache enabled -- 
+     drupal_add_css(drupal_get_path('module', 'helloworld') . '/css/hello_world_article.css', array('group' => CSS_DEFAULT, 'type' => 'file'))
      
      if ($delta == 'helloworld_blk') {
         $block['subject'] = t('Hello World!');
@@ -80,5 +82,3 @@ function helloworld_block_view($delta) {
 
       return $block;
 }
-
- 

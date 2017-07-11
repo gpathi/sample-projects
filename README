@@ -1,21 +1,19 @@
 
 
-This repository has sample code.
+Here are the instructions to go with the code:
 
-scripts:
 
-1. hw_google_rollout.php is a drush script that programatically updates a mini_panel and a panel.
+The code is arranged as follows:
 
-2. hw_rollout.helper.inc is a helper class that holds helper functions to update or revert a drupal feature, error handling and check the changes into git.
+        1. Code under modules, themes shows style of my coding 
 
-modules:
+        2. The scripts directory has two scripts, on of those is hw_google_rollout.php. 
+           This was an interesting issue I had faced in one of  my projects were we had to 
+           update close to 800 sites that were in production. The project used panels and
+           the issue was one of the panel had to be updated. The update had to be done in
+           production on the live site. Since it is a panel update and it is featurized.
 
-1.helloworld module renders a block listing all the articles of type helloworld along with the
-  helloworld article content.
- 
-2. Content type helloworld is defined in content_type_vocab_hello_world module
- 
-themes:
-
- This directory has the css and template file related to the display of articles of type
-  helloworld as described in the helloworld module.
+        3. The other script in the script directory was an extension to hw_google_rollout.php 
+           above wherein once the panel is updated, the change had to checked into Git. One
+           neat thing about this script is that this code can be used to enhance Features 
+           module, to checkin the Feature once its been created. 
