@@ -1,8 +1,0 @@
-<?php
-
-/**
- * @file
- * Code for the content type vocab hello world feature.
- */
-
-include_once 'content_type_vocab_hello_world.features.inc';
