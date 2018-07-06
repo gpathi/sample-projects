@@ -5,15 +5,14 @@ Here are the instructions to go with the code:
 
 The code is arranged as follows:
 
-        1. Code under modules, themes shows style of my coding 
-
-        2. The scripts directory has two scripts, on of those is hw_google_rollout.php. 
+      
+        1. The scripts directory has two scripts, on of those is hw_google_rollout.php. 
            This was an interesting issue I had faced in one of  my projects where we had to 
            update close to 800 sites that were in production. The project used panels and
            the issue was one of the panel had to be updated. The update had to be done in
            production on the live site since it is a panel update and it is featurized.
 
-        3. The other script in the script directory was an extension to hw_google_rollout.php 
+        2. The other script in the script directory was an extension to hw_google_rollout.php 
            above wherein once the panel is updated, the change had to be checked into Git. One
            neat thing about this script is that this code can be used to enhance Features 
            module, to checkin the Feature once its been created. 
