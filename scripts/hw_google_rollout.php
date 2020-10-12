@@ -9,7 +9,6 @@ define('DRUPAL_ROOT', getcwd());
 
 include_once 'hw_rollout.helper.inc';
 
-
 $jcode = drush_get_option('jcode');
 $jnldir = drush_get_option('jnldir');
 $sitedir = drush_get_option('sitedir');
