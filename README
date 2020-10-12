@@ -6,7 +6,7 @@ Here are the instructions to go with the code:
 The code is arranged as follows:
 
       
-        1. The scripts directory has two scripts, on of those is hw_google_rollout.php. 
+        1. The scripts directory has two drush scripts, on of those is hw_google_rollout.php. 
            This was an interesting issue I had faced in one of  my projects where we had to 
            update close to 800 sites that were in production. The project used panels and
            the issue was one of the panel had to be updated. The update had to be done in
