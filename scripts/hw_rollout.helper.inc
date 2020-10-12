@@ -1,6 +1,5 @@
 <?php
 
-
 /**
  * @file
  *    Rollout drush command helper function.
