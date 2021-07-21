@@ -1,0 +1,42 @@
+{{ attach_library('sample/customer-story-style') }}
+
+<div class="solution-brief-wrapper">
+
+    <div class="solution-brief-text-container container">
+
+        <div class="solution-brief-hero">
+
+            <h1>{{ content.field_hero_title.0 }}</h1>
+
+        </div>
+
+    </div>
+
+
+    <div class="solution-brief-benefits container">
+
+        <h2>{{ content.field_summary_title.0 }}</h2>
+
+        <div class="solution-brief-benefits-text">
+
+            <p>{{ content.field_description.0 }}</p>
+
+        </div>
+
+        <div class="solution-brief-benefits-cta">
+
+            <a href="{{ content.field_link_url.0 }}">
+                <button type="button">Download this solution brief</button>
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="solution-brief-main">
+
+        {{ content.field_body }}
+
+    </div>
+
+</div>
